@@ -1,0 +1,33 @@
+.styled-submit-button {
+  background-color: #b0c4de;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.styled-submit-button:hover {
+  background-color: #a7cfd4;
+}
+
+.styled-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #95a392;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-input:focus {
+  border-color: #a8b4f7;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}

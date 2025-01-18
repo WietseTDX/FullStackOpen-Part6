@@ -1,0 +1,28 @@
+.anecdote-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #b0c4de;
+}
+
+.styled-vote-button {
+  background-color: #8496ff; /* Desaturated blue color */
+  color: rgb(82, 82, 82); /* White text for contrast */
+  border: none; /* Remove default button borders */
+  padding: 2px 8px; /* Add some padding to make it more box-like */
+  border-radius: 10px; /* Makes the button rounded */
+  font-size: 14px; /* Optional: Increase font size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a boxed effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Optional: Button hover effect */
+.styled-vote-button:hover {
+  background-color: #a7cfd4; /* Slightly darker desaturated blue on hover */
+}
